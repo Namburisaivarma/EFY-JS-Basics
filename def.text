@@ -1,0 +1,101 @@
+UNDEFINED: Variable is declared but never assigned a value.
+
+NULL: Assigned a value but it is currently empty.
+
+== : Values need to be equal.
+
+=== : Both value and data type of value must be equal.
+
+JAVASCRIPT HOISTING: This is a interpreter that reads the declaration first before eecuting the code.
+
+Function declaration are hoisted where as function expression are not hoisted.
+
+Add or remove elements in any position or middle : array.splice(index, howmanytoremove, newitem1,....,newitemN);
+
+SLICE: use slice to return a subset of the array
+
+lastIndexOf: Gives you the last occurence of a element.
+
+forEach(item,index)
+
+EVERY: The every() method tests whether all elements in the array pass the test.
+
+FILTER: It will return a new array with all elements passing the test.
+
+MAP: creates a new array with the results of calling a function for every array element.
+You will use this method whenever you want to create a new array based on existing array.
+
+
+REDUCE: It reduces the array to a single Value.
+
+FIND: This gives you only the first matched element that passing the test.
+
+CLOSURE: This is a inner function knows local scope of all parent functions upwards.
+
+DOM: The dom is a interface between javascript and html.
+
+Every time js loads the html it will create on js object for you and that js object is called document Object.
+
+Dom is nothing but document object and using this object you can interact with html
+from js.
+
+AJAX: Asynchronous Javascript And XML
+
+Ajax is a concept where client browser side script that communicates to from a server
+without the need for a page postback or a complete refresh.
+
+{}=={}
+False
+
+{}==={}
+False
+
+Strings: We don't have areverse method.
+
+
+ENCAPSULATION: Store the data in the form  of properties.
+
+CONSTRUCTOR: This is a function that executes first to initialize  a class.
+
+PROTOTYPE: This is the property of the function where you can add/attach a method
+and you can also inherit parent classes.
+
+1997 - ES1
+2009 - ES5
+2015 - ES6
+
+LET: The purpose of this is create a block scoped variables.
+When you declare a variable with let it is local to that block only.
+
+VAR: It is considered as global variable inside the block also.
+
+DEFAULT FUNCTION PARAMETERS: This allows formal parameters to be initialized with default
+values if no value or undefined is passed.
+
+
+REST: Converting sequence of numbers in to an array.
+
+MODULE: An ES6 module is a file containing js code.
+
+GENERATORS: Functions that can be paused or resumed.
+YIELD: Yield is an operator with which a generator can pause.
+
+CLOSURE: a closure is an inner function that has access to the outer function variables.
+
+The closure has three scope chains: 
+
+=> It has access to its own scope i.e variables defined 
+between its curly brackets.
+
+=> It has access to the outer function variables.
+
+=> It also have access to the global variables.
+
+CURRYING: Currying is the process of breaking down a function into a series of
+functions that each take a argument.
+
+THIS: It refers to an object.
+
+CALL: You pass the arguments in sequence.
+
+APPLY: You pass the arguments in an array.
